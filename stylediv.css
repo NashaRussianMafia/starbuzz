@@ -1,0 +1,15 @@
+/* CSS Document */
+
+
+a:link{
+	color:saddlebrown;
+	text-decoration: none;
+}
+a: visited{
+	color:brown;
+	text-decoration:none;
+}
+a:hover{
+	color:lightblue;
+	text-decoration:underline;
+}

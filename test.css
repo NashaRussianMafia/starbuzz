@@ -1,0 +1,48 @@
+/* CSS Document */
+
+
+#l {
+	font-weight: lighther
+}
+
+#n {
+	font-weight:normal;
+}
+
+#b {
+	font-weight:bold;
+}
+
+#bb {
+	font-weight: bolder;
+}
+
+#l {
+	text-decoration: overline
+}
+
+#n {
+	text-decoration:line-through
+}
+
+#b {
+	text-decoration: underline
+}
+
+#stamp {
+	border-width:10px;
+	border-color:rgb(180,215,215);
+	border-style:dashed;
+	background:lightgray;
+	width:100px;
+	height:100px;
+	margin:auto;
+	
+}
+#content {
+	background:rgb(180,215,215);
+	height: 100%;
+	line-height:100px;
+	text-align:center;
+	vertical-align:middle;
+}
