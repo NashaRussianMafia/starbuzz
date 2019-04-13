@@ -1,0 +1,15 @@
+/* CSS Document */
+body{
+	background-color: rgba(197,183,158,1.00)
+}
+div{
+	margin:3px;
+	padding:0.5em;
+}
+#container {
+	display:flex;
+}
+#header{
+	height:100px;
+		min-width:60px;
+}
