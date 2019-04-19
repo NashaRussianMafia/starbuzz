@@ -11,19 +11,18 @@
 }
 #container{
 	background-color: bisque;
-	display:flex;
-	justify-content:center;
-	flex-grow 
+	display: flex;
+	justify-content: center;
 }
 #home{
 	border-color:skyblue;
-	flex-grow: 1;
+	flex: 1;
 }
 #search{
 	border-color: darkseagreen;
-	flex-grow : 2;
+	flex: 2;
 }
 #logout{
 	border-color: indianred;
-	flex-grow : 1;
+	flex: 1;
 }
