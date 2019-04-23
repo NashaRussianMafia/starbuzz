@@ -1,0 +1,60 @@
+/* CSS Document */
+
+.navbar-collapse{
+	justify-content:flex-end;
+
+}
+.navbar{
+	background-color: #f97300;
+}
+
+.navbar-brand, .nav-link{
+	color:whitesmoke;
+}	
+.navbar-brand:hover, .nav-link:hover{
+	color:#f97300;
+	background-color: rgb(255,255,255,0.8);
+	border-radius: 10%;
+}
+.welcome{
+	position: absolute;
+	top:30%;
+	left:10%;
+}
+h1{
+	color:#f97300;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.welcome p {
+	color:dimgray;
+}
+header{
+	background-image: url('images/headerback.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+.overlay{
+	background-color: rgb(255,255,255,0.7);
+		width:100%;
+	height:100%;
+	  
+}
+.job {
+	position:absolute;
+	left:100px;
+	bottom: -25px;
+}
+.me{
+	border-radius:50%
+}
+.description{
+	border-left: medium solid navy;
+
+}
+.myimg{
+	
+}
+.description h3{
+	color:navy
+}
