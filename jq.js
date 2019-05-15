@@ -12,7 +12,8 @@ $('.box').click(function() {
            .animate(
              {
                opacity:0.25,
-               height:"toggle"
+               height:"toggle",
+               left:"+=100"
              }
            )
 }
