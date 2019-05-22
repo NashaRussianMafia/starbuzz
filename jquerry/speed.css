@@ -1,0 +1,22 @@
+html, body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  border-color: darkgray;
+  border-width: medium;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div {
+  position: absolute;
+  width: 1.5em;
+  height: 1.5em;
+}
