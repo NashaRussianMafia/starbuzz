@@ -1,0 +1,25 @@
+
+.parallax {
+  background-image: url(img_parallax2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text{
+  background-color: antiquewhite;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+.text:nth-child(1) {
+  position: fixed;
+  top:0px;
+  left:0px;
+  width: 100%;
+  background-color: #00000000;
+  text-align: center;
+
+}

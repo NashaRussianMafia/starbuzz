@@ -1,0 +1,114 @@
+/* CSS Document */
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.home {
+	background: black url(1.jpg) no-repeat center center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+
+}
+
+/* @keyframes slide_up { */
+	from: {
+/* top: 0%; */
+	}
+	to: {
+/* top: -100%; */
+	}
+/* } */
+/* .slide_up { */
+		/* animation-name: slide_up;
+		animation-duration: 1.5s;
+		animation-timing-function: linear;
+		animation-fill-mode: forwards;
+	}
+	/* .slide_down { */
+		/* animation-name: slide_up;
+		animation-duration: 1.5s;
+		animation-timing-function: linear;
+		animation-fill-mode: forwards;
+		animation-direction: reverse; */
+	/* } */
+
+.layer {
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+
+}
+.title {
+	font-family: tenez;
+	font-size: 5em;
+}
+
+.enter {
+	font-family: futura;
+	font-size: 1.5em;
+	cursor: pointer;
+	height: 3em;
+}
+
+.enter:hover::after {
+	content: '';
+	display: block;
+	width: 2.3em;
+	height: 3px;
+	background-color: white;
+	animation-name: grow;
+	animation-duration: 0.7s;
+}
+
+@keyframes grow {
+	from {
+		width: 0em;
+	}
+	to {
+		width: 2.3em;
+	}
+}
+
+@keyframes bounce {
+	from {
+		top: 0;
+		color: white;
+	}
+	50% {
+		top: -30px;
+		color: black;
+	}
+	to {
+		top: 0;
+		color: white;
+	}
+}
+
+.bounce {
+	animation-name: bounce;
+	animation-duration: 0.8s;
+	animation-timing-function: linear;
+}
+
+.title span {
+	position: relative;
+}
+.portofolio{
+	background-color: rgb(74 34 34);
+ display: flex;
+ align-content: center;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+	z-index: 1;
+
+}
